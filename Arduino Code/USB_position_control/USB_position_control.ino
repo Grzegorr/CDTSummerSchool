@@ -3,6 +3,7 @@ int servoPWM = 2;
 Servo Servo1;
 
 void setup() {
+  delay(3000);
   // put your setup code here, to run once:
   Servo1.attach(servoPWM);
   Serial.begin(115200);

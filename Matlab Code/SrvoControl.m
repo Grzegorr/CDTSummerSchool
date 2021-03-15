@@ -1,3 +1,7 @@
+%%Servo can be cotrolled by sending microsecounds pulse width over USB. 
+%%Full rotation is around 175 us
+%%Limit urself to 1100-1900 us to have good accuracy 
+
 serialportlist
 s = serialport("COM3",115200);
 s.Terminator
