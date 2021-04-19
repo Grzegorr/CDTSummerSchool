@@ -1,4 +1,5 @@
 clear;
+clc;
 %%Servo can be cotrolled by sending microsecounds pulse width over USB. 
 %%Full rotation is around 180 us
 %%Limit urself to 1100-1900 us to have good accuracy 
@@ -12,13 +13,13 @@ cam = webcam
 
 %Serial port preparation
 port_list = serialportlist
-s = serialport("COM3",115200);
+s = serialport("COM4",115200);
 s.Terminator;
 configureTerminator(s,"LF");
 
 %%Reference Point
 %write(s,"1100","uint8");
-pause(10)
+pause(3)
 
 
 %variables
@@ -36,7 +37,7 @@ for angle_n = 1:36
     S = HSV(:,:,2);
     V = HSV(:,:,3);
     mask = (H >= 130) & (H <= 180) & (S >= 100) & (S <= 255) & (V >= 0) & (V <= 255);%range of RGB values
-    pixel_sums(angle_n) = sum(sum((mask(:,:) == 1)))
+    pixel_sums(angle_n) = sum(sum((mask(:,:) == 1)));
     mask3 = repmat(mask,1,1,3);
     masked_image = img .* uint8(mask3);
     file_name = "Image"+ num2str(angle) + "masked";

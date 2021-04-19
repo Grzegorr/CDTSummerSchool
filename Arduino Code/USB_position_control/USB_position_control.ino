@@ -1,5 +1,5 @@
 #include <Servo.h>
-int servoPWM = 2;
+int servoPWM = 10;
 Servo Servo1;
 
 void setup() {
