@@ -3,7 +3,7 @@
 %%Limit urself to 1100-1900 us to have good accuracy 
 
 serialportlist
-s = serialport("COM3",115200);
+s = serialport("COM4",115200);
 s.Terminator
 configureTerminator(s,"LF")
 
