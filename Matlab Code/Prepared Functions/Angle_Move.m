@@ -4,12 +4,13 @@ function [] = Angle_Move(s,angle, time_wait)
 %input supported 0 - 4*360
 
 %Starting point
-us = 1100;
+us = 1500;
 
 us = us + (angle / 2);
 us_str = num2str(us);
 
 write(s,us_str,"uint8");
+log = "moved to " + us_str + "us."
 pause(time_wait)
 
 end
