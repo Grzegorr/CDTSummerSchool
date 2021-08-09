@@ -10,7 +10,7 @@ configureTerminator(s,"LF");
 
 %Prepare Camera
 cameras = webcamlist
-cam = webcam
+cam = webcam(2)
 
 last_angle = Angle_Move(s,0,2);
 

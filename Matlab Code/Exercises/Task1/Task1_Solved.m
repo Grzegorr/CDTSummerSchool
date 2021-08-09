@@ -5,13 +5,13 @@ clc;
 %This makes sure that the computer USB port speaks the same convention as
 %the port on the Arduino
 serialportlist
-s = serialport("COM4",115200);
+s = serialport("COM3",115200);
 s.Terminator;
 configureTerminator(s,"LF");
 
 %Camera preparation
 cameras = webcamlist
-cam = webcam
+cam = webcam(2)
 
 %Move servo to mid position
 %There may be a jerky movement at the start of the servo
