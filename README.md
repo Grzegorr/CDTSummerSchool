@@ -1,5 +1,5 @@
 # Agrifirwards CDT 2021 Summer School Robotic Kit
-
+![Example Chassis](https://github.com/Grzegorr/Robot-CDT-Summer-School/blob/main/README_media/ExampleChassis.jpg)
 
 
 
