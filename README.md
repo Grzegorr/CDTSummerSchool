@@ -26,3 +26,5 @@ Code and manufacturing schematics for an educational kit used for remote Agrifor
 1. Lasercut the chassis uisng files in Lasercut_Files.
 2. Buy components form Instruction/Components_List.
 3. Follow the assembly instruction in PDF file in Folder Instruction.
+
+### Example Projects Done with the Robotic Kit:
