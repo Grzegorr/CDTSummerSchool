@@ -15,3 +15,13 @@
 
 
 Code and manufacturing schematics for an educational kit used for remote Agriforwards CDT Summer School 2021.
+
+
+
+
+
+
+
+### Reproducing Results:
+1. Lasercut the chassis uisng files in Lasercut_Files.
+2. Follow the assembly instruction in PDF file in Folder Instruction.
