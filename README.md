@@ -24,4 +24,5 @@ Code and manufacturing schematics for an educational kit used for remote Agrifor
 
 ### Reproducing Results:
 1. Lasercut the chassis uisng files in Lasercut_Files.
-2. Follow the assembly instruction in PDF file in Folder Instruction.
+2. Buy components form Instruction/Components_List.
+3. Follow the assembly instruction in PDF file in Folder Instruction.
